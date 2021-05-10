@@ -19,6 +19,7 @@ import java.util.*;
  */
 public class About_ArrayDeque {
 	// Commit by Ashu
+	
 	private List<Integer> deque = new ArrayList<Integer>();
 	public void insertFront(int item){ 
 		//add element at the beginning of the queue 
