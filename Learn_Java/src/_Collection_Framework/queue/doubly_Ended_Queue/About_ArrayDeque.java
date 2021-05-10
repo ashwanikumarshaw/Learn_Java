@@ -18,7 +18,7 @@ import java.util.*;
  * either the front (head) or back (tail).
  */
 public class About_ArrayDeque {
-
+	// Commit by ashu
 	private List<Integer> deque = new ArrayList<Integer>();
 	public void insertFront(int item){ 
 		//add element at the beginning of the queue 
