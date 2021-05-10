@@ -64,6 +64,7 @@ public class About_ArrayDeque {
 		return item; 
 		} 
 	public static void main(String a[]){ 
+		
 		About_ArrayDeque deq = new About_ArrayDeque(); 
 		deq.insertFront(4); 
 		deq.insertRear(40); 
