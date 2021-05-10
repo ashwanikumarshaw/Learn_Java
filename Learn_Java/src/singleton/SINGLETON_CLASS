@@ -1,0 +1,37 @@
+             #######        SINGLETON CLASS      #######
+             
+//Private constructor to resrict instantiation of the class of 
+	the other classes
+
+STEP 1. make constructor private (AppConfig) so that 
+			it can't get access from out side the class
+
+//Private static variable of the same class that is the only 
+	instance of the class	
+		
+STEP 2. create the a private static obj using private constructor 
+				in that class only
+
+//Public static method that return the instance of the class ,
+the global access point for outer world to get the instance of the same singleton class
+
+STEP 3. create a fun to return that object using getInstance()
+
+
+Note : 
+	>>How to fetch object in other classes ?
+	
+		AppConfig obj=AppConfig.getInstance();
+		obj.work();
+		
+	>>Why we need singleton class ?
+		
+		Suppose we are making a app and we need some data to start the app
+		so make an object of get data class
+		now in other functionality we again need some data 
+		and we create obj of get data class
+		this can make our app laggey or slow 
+		as input , output , read and write takes a lot of time .
+		So by using Singleton class we will make get data class 
+		and make only one object and make it return to other classes
+		
