@@ -75,6 +75,7 @@ public class About_ArrayDeque {
 		deq.insertRear(48);
 		deq.insertFront(10); 
 		deq.removeRear(); 
+		
 		}
 }
 
