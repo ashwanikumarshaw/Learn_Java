@@ -63,6 +63,7 @@ public class About_Set {
 		y.add(50);
 		y.add(6);
 		y.add(45);
+		System.out.println(y.contains(6));
 		
 		//Basic mathematical set operations like union, intersection, and subset.
 		
